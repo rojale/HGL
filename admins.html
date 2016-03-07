@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link rel="stylesheet" type="text/css" href="maincss.css">
+		<link rel="stylesheet" media='screen and (min-width: 1050px)' type="text/css" href="maincss.css">
+		<link rel="stylesheet" media='screen and (max-width:1049px) and (min-width:650px)' type="text/css" href="medcss.css">
+		<link rel="stylesheet" media='screen and (max-width: 649px)' type="text/css" href="mobilecss.css">
 		<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 
 	</head>
@@ -13,7 +15,11 @@
 			</div>
 			<div class="navright">
 				<ul class="mainnav">
-					<li class="navlink"><a href="Landing.htm"> Home </a></li>
+					<div class="navitem">
+					<div class="navitem">
+						<li class="navlink"><a href="Landing.htm"> Home </a></li>
+					</div>
+					</div>
 					<div class="navdropdown">
 						<li class="navlink"> <a href="Tournaments.htm"> Tournaments </a> </li>
 						<div class="navdropdowncontent">
@@ -105,7 +111,9 @@
 							<td><textarea></textarea></td>
 						</tr>
 					</table>
-
+				<div class="formbuttonwrap">
+					<button class="formbutton"> SUBMIT </button>
+				</div>
 			</div>
 		</div>
 		<div class= "socmedout">
