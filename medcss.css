@@ -128,8 +128,8 @@ div.banner {
 }
 div.bannertext {
 	text-align: center;
-	padding-top:200px;
-	width:70%;
+	padding-top:150px;
+	width:85%;
 	margin-left:auto;
 	margin-right:auto;
 }
@@ -224,12 +224,12 @@ a.socmed{
 	margin-bottom:15px;
 }
 .maincontent p {
-	font-size:25px;
+	font-size:16px;
 	padding:0;
 	margin:0;
 }
 a.biglink1 {
-	font-size:25px;
+	font-size:16px;
 	color:#ff8d1a;
 }
 a.intextlink {
@@ -245,7 +245,7 @@ div.maincontent2 {
 	text-align:center;
 }
 div.maincontent2wrap {
-	width:50%;
+	width:75%;
 	margin-right:auto;
 	margin-left:auto;
 	text-align:left;
@@ -305,6 +305,7 @@ div.formbuttonwrap{
 }
 .maincontent2 h2 {
 	text-align:left;
+	padding-top:10px;
 }
 .maincontent .largetext {
 
